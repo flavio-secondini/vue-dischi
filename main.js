@@ -5,12 +5,7 @@ var app = new Vue ({
   data: {
     selezione: '',
     albums: [],
-    generi: [
-      'Rock',
-      'Pop',
-      'Jazz',
-      'Metal',
-    ],
+    generi: [],
   },
   mounted () {
     let origine = this
@@ -18,6 +13,13 @@ var app = new Vue ({
     .then(function (response) {
     origine.albums = response.data.response;
     console.log(origine.albums);
+
+    origine.albums.forEach((album, i) => {
+      if (!origine.generi.includes(album.genre)) {
+        origine.generi.push(album.genre)
+      }
+    });
+
     });
   },
   methods: {
