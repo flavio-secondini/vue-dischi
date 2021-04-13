@@ -64,3 +64,20 @@
 
   color: white;
 }
+<<<<<<< Updated upstream
+=======
+
+/* LISTA ALBUM */
+
+.album {
+  height: 30vh;
+  width: 15vw;
+
+  margin: 30px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+>>>>>>> Stashed changes
