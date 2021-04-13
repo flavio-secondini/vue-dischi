@@ -77,13 +77,40 @@
   color: white;
 }
 
+.options select {
+  width: 10vw;
+  background-color: #176835;
+
+  padding: 5px;
+
+  border-radius: 10px;
+  border: 2px solid white;
+
+  color: white;
+
+  font-size: 20px;
+}
+
+.subscribe button {
+  width: 10vw;
+  background-color: #176835;
+
+  padding: 5px;
+
+  border-radius: 10px;
+  border: 2px solid white;
+
+  color: white;
+
+  font-size: 20px;
+}
 /* LISTA ALBUM */
 
 .album {
   height: 30vh;
   width: 15vw;
 
-  margin: 30px;
+  margin: 40px;
 }
 
 .album img {
@@ -91,6 +118,12 @@
   width: 100%;
 }
 
-.album h2 {
+.album h3 {
+  color: #ffffff;
+
+  font-family: 'Calligraffitti';
+}
+
+.album p {
   color: #ffffff;
 }

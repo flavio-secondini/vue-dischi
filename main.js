@@ -3,8 +3,14 @@ Vue.config.devtools = true;
 var app = new Vue ({
   el:'#root',
   data: {
-    prova: 'funziona',
+    selezione: '',
     albums: [],
+    generi: [
+      'Rock',
+      'Pop',
+      'Jazz',
+      'Metal',
+    ],
   },
   mounted () {
     let origine = this
@@ -15,6 +21,5 @@ var app = new Vue ({
     });
   },
   methods: {
-
   }
 })
