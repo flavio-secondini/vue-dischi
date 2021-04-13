@@ -1,0 +1,66 @@
+/* STRUTTURA LAYOUT */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.upper-bar {
+  height: 20vh;
+  width: 100vw;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* BARRA SUPERIORE */
+
+.title-container {
+  position: relative;
+}
+
+.title {
+  background-color: #176835;
+
+  padding: 10px;
+
+  border-radius: 10px;
+  border: 2px solid white;
+
+  font-family: 'Train One';
+
+  font-size: 40px;
+
+  color: white;
+}
+
+.title-sign {
+  width: 20%;
+
+  position: absolute;
+  right: 0;
+
+  background-color: #176835;
+
+  padding: 5px;
+
+  border-radius: 10px;
+  border: 2px solid white;
+
+  font-family: sans-serif;
+  font-size: 25px;
+
+  color: white;
+}
